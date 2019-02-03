@@ -8,7 +8,7 @@ public class Province {
 	private String provinceName;
 	private String provinceCode;
 	
-	public int geidId(){
+	public int getId(){
 		return id;
 	}
 	
@@ -25,7 +25,7 @@ public class Province {
 	}
 	
 	public String getProvinceCode(){
-		return provinceName;
+		return provinceCode;
 	}
 
 	public void setProvinceCode(String provinceCode){
